@@ -6,4 +6,7 @@
         select * from my_test
     </select>
 
+    <select id="selectPageVo" resultType="me.test.domain.MyTest">
+        select * from my_test
+    </select>
 </mapper>
