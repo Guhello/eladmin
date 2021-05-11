@@ -1,4 +1,4 @@
-package me.test.repository;
+package me.test.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;

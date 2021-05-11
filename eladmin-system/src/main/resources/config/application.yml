@@ -21,6 +21,11 @@ spring:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
     open-in-view: true
 
+#  #MyBatis扫描mapper文件配置
+#  mybatis:
+#    mapper-locations: classpath:mapper/*Mapper.xml
+#    type-aliases-package: me.test.domain
+
   redis:
     #数据库索引
     database: ${REDIS_DB:0}

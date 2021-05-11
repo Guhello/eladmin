@@ -40,7 +40,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @Api(hidden = true)
 @SpringBootApplication
-@MapperScan(basePackages = {"me.test.repository"}) // 更换包名之后需要更改
+@MapperScan(basePackages = {"me.test.mapper"}) // 更换包名之后需要更改
 @ComponentScan(basePackages = {"me.zhengjie", "me.test"})
 @EnableTransactionManagement
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")

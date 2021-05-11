@@ -4,11 +4,9 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.RequiredArgsConstructor;
 import me.test.domain.MyTest;
-import me.test.repository.TestMapper;
+import me.test.mapper.TestMapper;
 import me.test.service.TestService;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 @RequiredArgsConstructor
